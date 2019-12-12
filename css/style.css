@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #0a79be;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper {}
+
+.logo__img {
+  width: 100%;
+}
+
+.info {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+h1 {
+  line-height: 60px;
+}
+
+.contact {
+  margin-left: 60px;
+}
