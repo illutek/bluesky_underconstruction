@@ -10,6 +10,7 @@ body {
   background-color: #0e2daa;
   color: white;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  overflow-x: hidden;
 }
 
 .container {
@@ -22,6 +23,10 @@ body {
 }
 
 .wrapper {}
+
+.logo {
+  margin-bottom: 30px;
+}
 
 .logo__img {
   width: 100%;
